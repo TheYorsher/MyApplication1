@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/firsrtLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Фамилия">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Имя">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Отчество">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Год">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Школа">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Город">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Опыт программирования">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Знание языков программирования">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </EditText>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </RadioButton>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+        </CheckBox>
+    </LinearLayout>
+
+    <CalendarView
+        android:id="@+id/calendarview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+        </CalendarView>
+
+</LinearLayout>
